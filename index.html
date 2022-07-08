@@ -11,10 +11,20 @@
         color: white;
 
         text-align: center;
+        transition: 0.5s;
+    }
+    h1:hover{
+        -webkit-text-stroke:2px white;
+        color:transparent;
     }
     h2{
         color: red;
         text-align: center;
+        transition: 0.5s;
+    }
+    h2:hover{
+        -webkit-text-stroke:2px white;
+        color:transparent;
     }
     p{
         font-family: verdana;
@@ -52,9 +62,28 @@
         color:blue;
         font-size:150px;
     }
+    .back-video{
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     z-index: -1;
+    }
+    @media (min-aspect-ratio:16/9){
+        .back-video{
+            width:100%;
+            height:auto;
+        }
+    }
+    @media (max-aspect-ratio:16/9){
+        .back-video{
+            width:auto;
+            height:100%;
+        }
+    }
     
 </style>
 <body>
+   <video autoplay loop muted plays-inline class="back-video"><source src="NIKE 2.mp4" type="video/mp4"></video> 
     <h1 style="font-size:40px;">KERUGOYA SPORTIFF FC PROFILE</h1>
     <a class="social-icon 2" href="https://www.facebook.com/profile.php?id=100070066652230"><ion-icon name="logo-facebook"></ion-icon></a>
     <a class="social-icon" href="https://instagram.com/kerugoya_sportifffc?igshid=YmMyMTA2M2Y=" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
