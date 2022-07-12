@@ -7,24 +7,8 @@
         font-weight: bolder;
         line height: 1.6em;
     }
-    h1{
-        color: white;
-        text-align: center;
-        transition: 0.5s;
-    }
-    h1:hover{
-        -webkit-text-stroke:2px white;
-        color:transparent;
-    }
-    h2{
-        color: red;
-        text-align: center;
-        transition: 0.5s;
-    }
-    h2:hover{
-        -webkit-text-stroke:2px white;
-        color:transparent;
-    }
+    
+        
     p1{
         font-family: verdana;
         font-size: 40px;
@@ -68,46 +52,78 @@
         color:blue;
         font-size:150px;
     }
-    .hero h1{
-        text-align: center;
-        font-size: 6rem;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        padding: 20px;
-        margin: 20px;
-        z-index: 1;
-    } 
-    .hero h2{
-        text-align: center;
-        font-size: 6rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 20px;
-        margin: 15px;
-        z-index: 1;
+    .back-video{
+        position:absolute;
+        right:0;
+        bottom:0;
+        z-index: -1;
     }
-    .video-container{
-        position: absolute;
-        top:0;
-        left:0;
-        width:100%;
-    }
-    .color-overlay{
-        position: absolute;
-        top:0;
-        left:0;
+    .hero{
         width:100%;
         height: 100vh;
-        opacity: 0.5;
+        background-image: linear-gradient(rgba(12,3,51,0.3)rgba(12,3,51,0.3));
+        position: relative;
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    .content{
+        text-align: center;
+    }
+    .content h1{
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: aqua;
+        font-size: 40px;
+        border: 2px solid #fff;
+        padding: 14px 70px;
+        border-radius: 50px;
+        margin-top: 20px;
+        transition: 0.5s;
+    }
+    .content h1:hover{
+        -webkit-text-stroke:2px white;
+        color: transparent;
+    }
+    .content h2{
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: aqua;
+        font-size: 40px;
+        border: 2px solid #fff;
+        padding: 14px 70px;
+        border-radius: 50px;
+        margin-top: 20px;
+        transition: 0.5s;
+    }
+    .content h2:hover{
+        -webkit-text-stroke:2px white;
+        color: transparent;}
+    @media(min-aspect-ratio:16/9){
+        .back-video{
+            width:100%;
+            height: auto;
+        }
+    }
+    @media(min-aspect-ratio:16/9){
+        .back-video{
+            width:auto;
+            height: 100%;
+        }}
 </style>
 <body>
-    <div class="hero"> <div class="video-container"><video autoplay loop muted plays-inline class="back-video" ><source src="NIKE 2.mp4" type="video/mp4"></video> </div>
-    <div class="color-overlay"></div>
-        <h1 style="font-size:40px;">KERUGOYA SPORTIFF FC PROFILE</h1>
-        <a class="social-icon 2" href="https://www.facebook.com/profile.php?id=100070066652230"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a class="social-icon" href="https://instagram.com/kerugoya_sportifffc?igshid=YmMyMTA2M2Y=" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-        <h2 style="font-size:40px;">instagram,twitter,facebook @kerugoya_sportifffc</h2>
-</div>
-
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video"> <source src="NIKE 2.mp4" type="video/mp4"></video>
+        <div class="content">
+            <h1 style="font-size:40px;">KERUGOYA SPORTIFF FC PROFILE</h1>
+            <h2 style="font-size:40px;">instagram,twitter,facebook @kerugoya_sportifffc</h2>       
+            <a class="social-icon 2" href="https://www.facebook.com/profile.php?id=100070066652230"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a class="social-icon" href="https://instagram.com/kerugoya_sportifffc?igshid=YmMyMTA2M2Y=" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+    </div>  
     <img src="🔥⚽Digital kerugoya sportiff(2nd)⚽🔥 20220507_204722.jpg" width="300" height="300">
     <p1>Kerugoya sportiff is a football club whose main objective is to develop football talents of young talented footballers.For this reason the age factor of its players is as follows;U14,U17 and U23 which is the limit.It is located at kerugoya town.Its headed by Coach ZACHARY MBITI(0723244447) who is a former NSL and AFCLeopards football player.He is an accountant who is a finalist in CPA .He is currently working in a coffee oraganisation in Kerugoya Town where he works during the day and attends training at evening.Below is his photo.</p1>
     <img src="IMG_2331.jpg" width="1000" height="1100">
