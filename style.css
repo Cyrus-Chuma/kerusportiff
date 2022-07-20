@@ -82,9 +82,19 @@ section{
 }
 header h1{
     color: aqua;
+    transition: 0.5s;
+}
+header h1:hover{
+    -webkit-text-stroke:2px white;
+    color: transparent;
 }
 header h2{
     color: aqua;
+    transition: 0.5s;
+}
+header h2:hover{
+    -webkit-text-stroke:2px white;
+    color: transparent;
 }
 section h3{
     color: aqua;
@@ -114,5 +124,10 @@ section p1{
     color: aqua;
     padding: 0%;
     font-size: 20PX;
+    transition: 0.5s;
+}
+section p1:hover{
+    -webkit-text-stroke:2px white;
+    color: transparent;
 }
 
