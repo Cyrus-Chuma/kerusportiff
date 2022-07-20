@@ -80,3 +80,38 @@ section{
     flex-direction: column;
     text-align: center;
 }
+header h1{
+    color: aqua;
+}
+header h2{
+    color: aqua;
+}
+section h3{
+    color: aqua;
+    padding: 0%;
+}
+section h4{
+    color: aqua;
+    padding: 0%;
+}
+section h5{
+    color: aqua;
+    padding: 0%;
+}
+section h6{
+    color: aqua;
+    padding: 0%;
+}
+section h7{
+    color: aqua;
+    padding: 0%;
+}
+section h8{
+    color: aqua;
+    padding: 0%;
+}
+section p1{
+    color: aqua;
+    padding: 0%;
+}
+
