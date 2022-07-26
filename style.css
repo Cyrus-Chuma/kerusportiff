@@ -89,7 +89,7 @@ header h1:hover{
     color: transparent;
 }
 header h2{
-    color: blue;
+    color: aqua;
     transition: 0.5s;
 }
 header h2:hover{
@@ -117,7 +117,7 @@ section h7{
     padding: 0%;
 }
 section h8{
-    color: aqua;
+    color: blue;
     padding: 0%;
 }
 section p1{
