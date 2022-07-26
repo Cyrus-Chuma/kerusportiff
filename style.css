@@ -89,7 +89,7 @@ header h1:hover{
     color: transparent;
 }
 header h2{
-    color: aqua;
+    color: blue;
     transition: 0.5s;
 }
 header h2:hover{
@@ -97,23 +97,23 @@ header h2:hover{
     color: transparent;
 }
 section h3{
-    color: aqua;
+    color: blue;
     padding: 0%;
 }
 section h4{
-    color: aqua;
+    color: blue;
     padding: 0%;
 }
 section h5{
-    color: aqua;
+    color: blue;
     padding: 0%;
 }
 section h6{
-    color: aqua;
+    color: blue;
     padding: 0%;
 }
 section h7{
-    color: aqua;
+    color: blue;
     padding: 0%;
 }
 section h8{
@@ -137,5 +137,9 @@ section p1:hover{
 }
 img{
     background-size: cover;
+}
+section p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
 
