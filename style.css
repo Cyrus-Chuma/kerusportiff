@@ -125,6 +125,7 @@ nav,a{
     .navbar-toggle {
         display: block;
         float: right;
+        padding-right: 15px;
       }
       .navbar-menu.responsive {
         display: flex;
