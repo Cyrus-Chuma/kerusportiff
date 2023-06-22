@@ -5,6 +5,7 @@ form{
     background-color: navy;
     height: 60vh;
     width: 60%;
+    justify-content: center;
 } 
 
 body{
