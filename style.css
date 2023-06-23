@@ -1,147 +1,150 @@
+
 *{
   margin: 0;
   padding: 0;
 }
-
-
 .navbar{
-    background-color: navy;
-    height: 15vh;
-    width: 100%;
-    display: flex;
-    gap: 1rem;
-    justify-content: space-between;
-    align-items: center;
+
+  background-color: navy;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
 }
 nav,h1{
-    color: aqua;
-    font-size: 18px;
+  color: aqua;
+  font-size: 18px;
 
 }
 nav,p{
-    color: aqua;
-    font-size: 15px;
+  color: aqua;
+  font-size: 15px;
 }
 
-nav,a{
-    color: aqua;
-    padding-top: 16px;
+.navbar-menu,a{
+  color: aqua;
+  padding-top: 16px;
 }
 #video-bg {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    overflow: hidden;
-    max-width: 100%;
-    width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
 }
 #video-bg video{
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
 }
 .wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  
 }
 .wrapper img {
-    width: 33.33%;
+  width: 33.33%;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column; /* Display images in a single column on mobile phones */
   }
-  
-  @media (max-width: 768px) {
-    .wrapper {
-      flex-direction: column; /* Display images in a single column on mobile phones */
-    }
-  
-    .wrapper img {
-      width: 95%; /* Adjust the width to fit the column on mobile phones */
-    }
+
+  .wrapper img {
+    width: 95%; /* Adjust the width to fit the column on mobile phones */
   }
-  .nav2{
-    background-color: navy;
-    height: 10vh;
-    width: 100%;
+}
+.nav2{
+  background-color: navy;
+  height: 10vh;
+  width: 100%;
 
 }
 #chuma{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 #lee{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+ 
 
 }
 #mutinda{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
+
 .container{
+  background-image: url(🔥⚽Digital\ kerugoya\ sportiff\(2nd\)⚽🔥\ 20220507_204722.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav2,p{
+  color: blue;
+  font-size: 15px;
+}
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+.toggle-icon {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color:aqua;
+  margin-bottom: 5px;
+}
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.navbar-menu li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-toggle {
+      display: block;
+      float: right;
+    }
+   
+    
+  }
+ 
+  .about{
     background-image: url(🔥⚽Digital\ kerugoya\ sportiff\(2nd\)⚽🔥\ 20220507_204722.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-.nav2,p{
-    color: blue;
-    font-size: 15px;
-}
-.navbar-toggle {
-    display: none;
-    cursor: pointer;
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
   }
-  .toggle-icon {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color:aqua;
-    margin-bottom: 5px;
-  }
-  .navbar-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  .navbar-menu li {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  @media only screen and (max-width: 600px) {
-    .navbar-menu {
-      display: none;
-    }
-    .navbar-toggle {
-        display: block;
-        float: right;
-        padding-right: 15px;
-      }
-      
-    }
-    .about{
-      background-image: url(🔥⚽Digital\ kerugoya\ sportiff\(2nd\)⚽🔥\ 20220507_204722.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      padding-left: 20px;
-    }
-  
   .list-menu{
     background-color: navy;
     background-size: cover;
@@ -157,9 +160,54 @@ nav,a{
   .list-menu,a {
     color: white;
   }
+  .home-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .tm-captain{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    gap: 2rem;
+    margin-top: 20px;
+    float: right;
+  }
+  .tm-captain img{
+    width: 100%;
+    height: auto;
+  }
+  .zachary{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+  .njogu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 
-  
+
+  }
+  @media only screen and (max-width: 600px) {
+    .home-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .about{
+      width: 100%;
+    }
+    .tm-captain{
+      width: 75%;
+    }
+  }
 
 
 
- 
+
