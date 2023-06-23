@@ -133,16 +133,7 @@ nav,a{
         float: right;
         padding-right: 15px;
       }
-      .navbar-menu.responsive {
-        display: flex;
-        flex-direction: column;
-        float: right;
-      }
-      .navbar-menu.responsive li {
-        margin-right: 0;
-        margin-bottom: 0%;
-        float: right;
-      }
+      
     }
     .about{
       background-image: url(🔥⚽Digital\ kerugoya\ sportiff\(2nd\)⚽🔥\ 20220507_204722.jpg);
