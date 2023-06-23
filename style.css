@@ -150,6 +150,22 @@ nav,a{
       background-repeat: no-repeat;
       padding-left: 20px;
     }
+  
+  .list-menu{
+    background-color: navy;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+  
+  }
+  .list-menu,a {
+    color: white;
+  }
 
   
 
