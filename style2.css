@@ -3,17 +3,22 @@ form{
     border-radius: 20px;
     border: 3px solid blue;
     background-color: navy;
-    height: 60vh;
-    width: 60%;
-    justify-content: center;
+    height: 80vh;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
 } 
 
-body{
-    margin:0;
-    padding: 20px;
+.container{
+    margin:0 auto;
     background-image: url(🔥⚽Digital\ kerugoya\ sportiff\(2nd\)⚽🔥\ 20220507_204722.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button{
     float: right;
@@ -26,6 +31,8 @@ button{
 }
  .btn{
     padding-top: 20px;
+    text-align: center;
+    display: inline-flex;
 }
 .surname{
     padding-top: 20px;
@@ -49,4 +56,9 @@ button{
     margin: 10px;
     height: 60vh;
     align-content: center;
-} 
+}
+@media only screen and (max-width: 600px) {
+    form {
+     width: 90%;
+    } 
+}
